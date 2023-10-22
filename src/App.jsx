@@ -1,6 +1,7 @@
 import './App.css'
 import Countery from './Countery'
 import Team from './Team'
+import Users from './Users'
 function App() {
   function handleClick(){
     alert("You clicked me!")
@@ -16,6 +17,10 @@ function App() {
     <>
      
       <h3> React Core Concepts 2</h3>
+      <Users></Users>
+
+      <br />
+      <br />
       <Countery></Countery>
       <br />
       <Team></Team>
