@@ -1,5 +1,6 @@
 import './App.css'
 import Countery from './Countery'
+import Friends from './Friends'
 import Team from './Team'
 import Users from './Users'
 function App() {
@@ -17,6 +18,8 @@ function App() {
     <>
      
       <h3> React Core Concepts 2</h3>
+
+      <Friends></Friends>
       <Users></Users>
 
       <br />

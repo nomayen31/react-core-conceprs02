@@ -9,6 +9,8 @@ function Users() {
         .then(data => setUsers(data))
 
     },[])
+
+    console.log(users);
     return(
         <div>
                 <h2>Users: {users.length}</h2>
